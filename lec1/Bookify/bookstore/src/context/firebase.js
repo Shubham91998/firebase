@@ -12,12 +12,7 @@ import {
 const FirebaseContext = createContext();
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDMBctCpPxhQCPR2xJLUCB1aLAZL-cEubo",
-  authDomain: "bookify-80a5d.firebaseapp.com",
-  projectId: "bookify-80a5d",
-  storageBucket: "bookify-80a5d.firebasestorage.app",
-  messagingSenderId: "165625770394",
-  appId: "1:165625770394:web:f2bbfe8917820b45998a23",
+  // Yourkeys
 };
 
 export const useFirebase = () => useContext(FirebaseContext);
